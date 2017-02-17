@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Choose a Layout</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding> 
+    <layout-preview size="64" layout="layouts/layout1.json" (layoutSelect)="onLayoutSelected($event)"></layout-preview>
+
+    <layout-preview size="64" layout="layouts/layout2.json" (layoutSelect)="onLayoutSelected($event)"></layout-preview>
+
+    <layout-preview size="64" layout="layouts/layout3.json" (layoutSelect)="onLayoutSelected($event)"></layout-preview>
+
+    <layout-preview size="64" layout="layouts/layout4.json" (layoutSelect)="onLayoutSelected($event)"></layout-preview>
+
+    <layout-preview size="64" layout="layouts/layout5.json" (layoutSelect)="onLayoutSelected($event)"></layout-preview>
+</ion-content>

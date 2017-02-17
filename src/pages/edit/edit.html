@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Add Pictures</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content no-bounce padding> 
+    <div class="center-outer">
+      <div class="center-inner">
+        <div style="position:relative; left:0; top:0;" [ngStyle]="{ 'width': layoutWidth + 'px', 'height': layoutWidth + 'px' }">
+          <layout-editor #layoutEditor [size]="layoutWidth" [layout]="selectedLayout"></layout-editor>
+        </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+
+    <div class="center-outer">
+      <div class="center-inner" style="margin-top:20px;">
+        <button ion-button large (click)="onSave($event)"><ion-icon name="share"></ion-icon> &nbsp; Save on Device</button>
+      </div>
+    </div>
+</ion-content>
