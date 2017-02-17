@@ -2,7 +2,7 @@
 
 A simple open source photo collage app ready to run on iOS and Android.
 You can see it in action here:
-[![Youtube Demo Video](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![Youtube Demo Video](https://img.youtube.com/vi/6MrF_7jQ4Ck/1.jpg)](https://www.youtube.com/watch?v=6MrF_7jQ4Ck)
 
 I created the app to provide a full working sample of how the HTML5 canvas can interact with a device camera and photo album.
 Feel free to extend it to your needs. Feedback and improvements are always welcome. :)
